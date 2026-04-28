@@ -6,6 +6,8 @@ import UseState from './hooks/UseState'
 import UseReducer from './hooks/UseReducer'
 import FormValidation from './hooks/FormValidation'
 import UseEffect from './hooks/UseEffect'
+import Usememo1 from './hooks/Usememo1'
+import Usememo2 from './hooks/Usememo2'
 
 function App() {
   const [likes, setlikes] = useState(0)
@@ -17,7 +19,9 @@ function App() {
       {/* <UseState/> */}
       {/* <UseReducer/> */}
       {/* <FormValidation/> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      {/* <Usememo1/> */}
+      <Usememo2/>
     </>
   )
 }
